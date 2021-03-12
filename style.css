@@ -1,5 +1,5 @@
 #slides{
-    height: 50px;
+
 }
 body{
 
@@ -9,7 +9,8 @@ body{
 
 footer{
     font-size: small;
-    position: absolute;
+    position: relative;
+    float: bottom;
     bottom: 0;
     width: 100%;
     margin-bottom: -150px;
@@ -41,5 +42,16 @@ footer a:hover{
     color: cadetblue;
 }
 header{
+    text-align: center;
+    height: 100vh;
+    color: white;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("images/pexels-momo-2256259.jpg");
+}
 
+header a{
+    text-decoration: none;
+    color: white;
 }
