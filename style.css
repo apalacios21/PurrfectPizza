@@ -1,6 +1,4 @@
-#slides{
 
-}
 body{
 
     font-family: Verdana;
@@ -49,7 +47,7 @@ header{
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("images/pexels-momo-2256259.jpg");
+    background-image: url("images/maneki-neko-light.jpg");
 }
 
 header a{
@@ -58,7 +56,91 @@ header a{
 }
 h1{
     font-weight: bold;
+    text-decoration: none
 }
+
 #center{
     text-align: center;
+}
+
+
+.firstletter:first-letter{
+    font-size:2em;
+    font-weight:bold;
+    color: darkred;
+
+}
+#photo{
+    text-align: center;
+    height: 100vh;
+    color: white;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("images/pizza-light.jpg");
+    text-decoration: none;
+}
+div a{
+    color: white;
+    text-decoration: none;
+}
+.large{
+    font-size: 3em;
+    font-family: Verdana, fantasy;
+}
+
+@media only screen and (min-width: 600px){
+
+    input[type="submit"]{
+        grid-column: 2/3;
+        width:9em;
+    }
+    nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding-right: 2em;
+        font-size: 1.2em;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+    }
+    nav li{
+        display: inline;
+        padding-left: 2em;
+        width: 7em;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    header {
+        text-align: center;
+        height: 100vh;
+        color: white;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("images/maneki-neko-light.jpg");
+        text-decoration: none;
+        font-size: 120%;
+        min-height: 200px;
+    }
+
+    nav.fixed{
+        text-align: right;
+        background-color: #FFFFFF;
+        margin: 0;
+        padding-top: 0.5em;
+        padding-bottom: 1em;
+        padding-right: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        width: 100%;
+        height: auto;
+        font-weight: bold;
+    }
+
+
 }
