@@ -1,0 +1,45 @@
+#slides{
+    height: 50px;
+}
+body{
+
+    font-family: Verdana;
+    margin: 0;
+}
+
+footer{
+    font-size: small;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -150px;
+    background-color: gray;
+}
+footer h6{
+    font-weight: bold;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    color: cadetblue;
+}
+#down{
+    text-align: center;
+}
+#nav{
+    text-decoration: none;
+    background-color: gray ;
+
+}
+#nav a{
+    text-decoration: none;
+    color: black;
+}
+#nav a:hover{
+    color: cadetblue;
+}
+header{
+
+}
